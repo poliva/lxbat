@@ -3,7 +3,6 @@ Section: misc
 Priority: optional
 Maintainer: Pau Oliva Fora (pof) <pau@eslack.org>
 Build-Depends: debhelper (>= 8.0.0),
- autotools-dev,
  pkg-config,
  lxpanel,
  libglib2.0-dev,

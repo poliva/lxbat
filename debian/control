@@ -1,0 +1,21 @@
+Source: lxbat
+Section: misc
+Priority: optional
+Maintainer: Pau Oliva Fora (pof) <pau@eslack.org>
+Build-Depends: debhelper (>= 8.0.0),
+ autotools-dev,
+ pkg-config,
+ lxpanel,
+ libglib2.0-dev,
+ libgtk2.0-dev,
+ libmenu-cache1-dev
+Standards-Version: 3.9.3
+Homepage: https://github.com/poliva/lxbat
+Vcs-Git: git://github.com/poliva/lxbat.git
+Vcs-Browser: https://github.com/poliva/lxbat
+
+Package: lxbat
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: battery percentage plugin for LXDE lxpanel.
+ This is a simple LXPANEL plugin that displays % of battery left.

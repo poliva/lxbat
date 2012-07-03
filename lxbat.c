@@ -299,7 +299,7 @@ PluginClass lxbat_plugin_class = {
 	// type of this plugin
 	type:"lxbat",
 	name:N_("Lx Battery Plugin"),
-	version:"0.1",
+	version:"1.0",
 	description:N_("Displays the battery charge percentage."),
 
 	// we can have only one instance running at the same time
